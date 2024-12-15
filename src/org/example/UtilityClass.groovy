@@ -1,7 +1,8 @@
+// src/org/example/UtilityClass.groovy
 package org.example
 
 class UtilityClass {
-    static void printMessage(String message) {
-        echo "Message: ${message}"
+    static String printMessage(String message) {
+        return "Message: ${message}"  // Return the message, do not echo
     }
 }
